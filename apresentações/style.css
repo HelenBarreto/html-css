@@ -30,44 +30,46 @@
 
 
 header{
+    
     background-color: var(--cor-cinza);
-    
-
     height: 300px;
-    width: 1536px;
-    
     
 
+    position: relative;
 }
 
 
-
-header section{
+section{
     background-color: var(--cor-azul);
     height: 300px;
-    width: 1200px;
+    width: 1199px;
+    
+    
 
-    margin-top: 50px;
-    margin-left: 170px;
-    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 22%;
+    transform: translate(-50%, -8%);
+
+
 }
 
 
-section h1{
+
+article h1{
     font-family: var(--font-titulo-header);
     
     font-size: 29px;
     font-weight: 600;
 
     height: 40px;
-    width: 270px;
+    width: 60px;
 
-    padding: 60px 0px 0px 200px
 
     
 }
 
-section #subtitulo{
+article#subtitulo{
 
     font-family: var(--font-titulo-header);
     font-size: 18;
@@ -75,25 +77,44 @@ section #subtitulo{
 
     height: 30px;
     width: 400px;
-    padding: 0px 0px 0px 100px
+    
 
 }
 
 
-section #social{
+article#social{
     
     height: 40px;
     width: 100px;
-    padding: 0px 0px 0px 356px;
+    
     
 }
 
-section #contato{
+article#contato{
     font-family: var(--font-titulo-header);
     font-weight: 700;
 
     height: 200px;
     width: 310px;
-    padding: 0px 0px 0px 870px
+   
 
+}
+
+article#primeiro{
+    position: absolute;
+    left: 12%;
+    top: 15%;
+}
+
+article#segundo{
+    position: absolute;
+    left: 40%;
+    top: 15%;
+}
+
+
+article#terceiro{
+    position: absolute;
+    left: 70%;
+    top: 15%;
 }
