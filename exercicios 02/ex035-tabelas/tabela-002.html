@@ -20,38 +20,44 @@
         caption{
             font-size: 2em;
             font-weight: 200;
+            background-color: rgba(114, 118, 122, 0.474);
         }
 
         table{
-            width: 800px;
+           
+
             border-collapse: collapse;
 
+            position: relative;
 
         }
 
-        th, td{
-            border: 1px solid black;
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color:rgb(73, 75, 74);  
+        }
+
+        th,td{
+            border: 1.5px solid rgb(0, 0, 0);
             padding: 10px;
-            width: 30px;
+            width: 150px;
+            
         }
 
+        thead > tr > th{
+            background-color: rgb(73, 75, 74); 
+            color: white;
+        }
 
+        tfoot tr{
+            background-color: rgba(73, 75, 74, 0.245); 
+        }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        tbody > tr:nth-child(3n){
+            background-color: rgb(116, 146, 146);
+        }
+        
 
 
 
@@ -63,8 +69,9 @@
 <body><h1>Uso de tabelas grandes</h1>
 
     <table>
+        <caption>População por Estado do Brasil</caption>
         <thead>
-            <caption>População por Estado do Brasil</caption>
+           
             <tr>
 
                 <th scope="col">Posição</th>
@@ -100,12 +107,154 @@
 
             </tr>
 
+            <tr>
+                <td>3</td>
+                <td>Sao Paulo</td>
+                <td>41 262 199</td>
+                <td>46 649 132</td>
+                <td>+13.05%</td>
+                
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Minas Gerais</td>
+                <td>19 597 330</td>
+                <td>21 411 93</td>
+                <td>+9.26%</td>
+                
+
+
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Sao Paulo</td>
+                <td>41 262 199</td>
+                <td>46 649 132</td>
+                <td>+13.05%</td>
+                
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td>Minas Gerais</td>
+                <td>19 597 330</td>
+                <td>21 411 93</td>
+                <td>+9.26%</td>
+                
+
+
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td>Sao Paulo</td>
+                <td>41 262 199</td>
+                <td>46 649 132</td>
+                <td>+13.05%</td>
+                
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td>Minas Gerais</td>
+                <td>19 597 330</td>
+                <td>21 411 93</td>
+                <td>+9.26%</td>
+                
+
+
+            </tr>
+
+            <tr>
+                <td>9</td>
+                <td>Sao Paulo</td>
+                <td>41 262 199</td>
+                <td>46 649 132</td>
+                <td>+13.05%</td>
+                
+            </tr>
+
+            <tr>
+                <td>10</td>
+                <td>Minas Gerais</td>
+                <td>19 597 330</td>
+                <td>21 411 93</td>
+                <td>+9.26%</td>
+                
+
+
+            </tr>
+
+            <tr>
+                <td>11</td>
+                <td>Sao Paulo</td>
+                <td>41 262 199</td>
+                <td>46 649 132</td>
+                <td>+13.05%</td>
+                
+            </tr>
+
+            <tr>
+                <td>12</td>
+                <td>Minas Gerais</td>
+                <td>19 597 330</td>
+                <td>21 411 93</td>
+                <td>+9.26%</td>
+                
+
+
+            </tr>
+
+            <tr>
+                <td>13</td>
+                <td>Sao Paulo</td>
+                <td>41 262 199</td>
+                <td>46 649 132</td>
+                <td>+13.05%</td>
+                
+            </tr>
+
+            <tr>
+                <td>14</td>
+                <td>Minas Gerais</td>
+                <td>19 597 330</td>
+                <td>21 411 93</td>
+                <td>+9.26%</td>
+                
+
+
+            </tr>
+
+            <tr>
+                <td>15</td>
+                <td>Sao Paulo</td>
+                <td>41 262 199</td>
+                <td>46 649 132</td>
+                <td>+13.05%</td>
+                
+            </tr>
+
+            <tr>
+                <td>16</td>
+                <td>Minas Gerais</td>
+                <td>19 597 330</td>
+                <td>21 411 93</td>
+                <td>+9.26%</td>
+                
+
+
+            </tr>
         </tbody>
 
         <tfoot>
 
             <th scope="row">Está é a parte do rodapé</th>
             <td>Resultado</td>
+            <td>Resultado</td>
+            <td>Resultado</td>
+            <td>8609182757</td>
 
 
         </tfoot>
@@ -119,6 +268,18 @@
 
 
     </table>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga illum, delectus, autem quam vitae reprehenderit porro quidem laboriosam id esse laudantium, cum assumenda quod corrupti reiciendis est provident doloremque doloribus!Loreelor Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium officiis officia, minus ratione libero nemo dolores, numquam, quisquam ducimus ullam itaque sit. Omnis minima, nam unde magni est alias ipsa!Loremlo Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus iure officia necessitatibus nihil architecto ipsum consequatur pariatur vitae adipisci. Voluptas, vel. Nesciunt veritatis dolor voluptas quisquam iusto velit dolorum illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi ut, culpa animi unde, architecto deleniti voluptatem atque voluptates nostrum nihil commodi consectetur totam minus nulla corrupti! Maxime, vel perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, sint? Tempora assumenda incidunt exercitationem suscipit iusto, facere quaerat nulla nesciunt ut ducimus eius sunt ipsam, minima inventore magni. Harum, est?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor accusamus, fugit necessitatibus non reprehenderit nihil corporis dignissimos omnis delectus itaque aperiam deserunt error dolorum possimus similique, labore iure provident! Molestias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aperiam, eos, beatae id libero temporibus quibusdam earum facere, dolorem fugiat deserunt ea. Minus ipsum ea non harum corrupti optio unde! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum dolores blanditiis iure rem deserunt sunt delectus, totam molestiae. Molestias incidunt quam aut cum reiciendis officiis non hic eaque possimus sunt.
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga illum, delectus, autem quam vitae reprehenderit porro quidem laboriosam id esse laudantium, cum assumenda quod corrupti reiciendis est provident doloremque doloribus!Loreelor Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium officiis officia, minus ratione libero nemo dolores, numquam, quisquam ducimus ullam itaque sit. Omnis minima, nam unde magni est alias ipsa!Loremlo Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus iure officia necessitatibus nihil architecto ipsum consequatur pariatur vitae adipisci. Voluptas, vel. Nesciunt veritatis dolor voluptas quisquam iusto velit dolorum illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi ut, culpa animi unde, architecto deleniti voluptatem atque voluptates nostrum nihil commodi consectetur totam minus nulla corrupti! Maxime, vel perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, sint? Tempora assumenda incidunt exercitationem suscipit iusto, facere quaerat nulla nesciunt ut ducimus eius sunt ipsam, minima inventore magni. Harum, est?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor accusamus, fugit necessitatibus non reprehenderit nihil corporis dignissimos omnis delectus itaque aperiam deserunt error dolorum possimus similique, labore iure provident! Molestias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aperiam, eos, beatae id libero temporibus quibusdam earum facere, dolorem fugiat deserunt ea. Minus ipsum ea non harum corrupti optio unde! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum dolores blanditiis iure rem deserunt sunt delectus, totam molestiae. Molestias incidunt quam aut cum reiciendis officiis non hic eaque possimus sunt.
     
+    
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga illum, delectus, autem quam vitae reprehenderit porro quidem laboriosam id esse laudantium, cum assumenda quod corrupti reiciendis est provident doloremque doloribus!Loreelor Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium officiis officia, minus ratione libero nemo dolores, numquam, quisquam ducimus ullam itaque sit. Omnis minima, nam unde magni est alias ipsa!Loremlo Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus iure officia necessitatibus nihil architecto ipsum consequatur pariatur vitae adipisci. Voluptas, vel. Nesciunt veritatis dolor voluptas quisquam iusto velit dolorum illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi ut, culpa animi unde, architecto deleniti voluptatem atque voluptates nostrum nihil commodi consectetur totam minus nulla corrupti! Maxime, vel perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, sint? Tempora assumenda incidunt exercitationem suscipit iusto, facere quaerat nulla nesciunt ut ducimus eius sunt ipsam, minima inventore magni. Harum, est?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor accusamus, fugit necessitatibus non reprehenderit nihil corporis dignissimos omnis delectus itaque aperiam deserunt error dolorum possimus similique, labore iure provident! Molestias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aperiam, eos, beatae id libero temporibus quibusdam earum facere, dolorem fugiat deserunt ea. Minus ipsum ea non harum corrupti optio unde! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum dolores blanditiis iure rem deserunt sunt delectus, totam molestiae. Molestias incidunt quam aut cum reiciendis officiis non hic eaque possimus sunt.
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga illum, delectus, autem quam vitae reprehenderit porro quidem laboriosam id esse laudantium, cum assumenda quod corrupti reiciendis est provident doloremque doloribus!Loreelor Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium officiis officia, minus ratione libero nemo dolores, numquam, quisquam ducimus ullam itaque sit. Omnis minima, nam unde magni est alias ipsa!Loremlo Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus iure officia necessitatibus nihil architecto ipsum consequatur pariatur vitae adipisci. Voluptas, vel. Nesciunt veritatis dolor voluptas quisquam iusto velit dolorum illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi ut, culpa animi unde, architecto deleniti voluptatem atque voluptates nostrum nihil commodi consectetur totam minus nulla corrupti! Maxime, vel perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, sint? Tempora assumenda incidunt exercitationem suscipit iusto, facere quaerat nulla nesciunt ut ducimus eius sunt ipsam, minima inventore magni. Harum, est?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor accusamus, fugit necessitatibus non reprehenderit nihil corporis dignissimos omnis delectus itaque aperiam deserunt error dolorum possimus similique, labore iure provident! Molestias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aperiam, eos, beatae id libero temporibus quibusdam earum facere, dolorem fugiat deserunt ea. Minus ipsum ea non harum corrupti optio unde! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum dolores blanditiis iure rem deserunt sunt delectus, totam molestiae. Molestias incidunt quam aut cum reiciendis officiis non hic eaque possimus sunt.
+
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga illum, delectus, autem quam vitae reprehenderit porro quidem laboriosam id esse laudantium, cum assumenda quod corrupti reiciendis est provident doloremque doloribus!Loreelor Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium officiis officia, minus ratione libero nemo dolores, numquam, quisquam ducimus ullam itaque sit. Omnis minima, nam unde magni est alias ipsa!Loremlo Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus iure officia necessitatibus nihil architecto ipsum consequatur pariatur vitae adipisci. Voluptas, vel. Nesciunt veritatis dolor voluptas quisquam iusto velit dolorum illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi ut, culpa animi unde, architecto deleniti voluptatem atque voluptates nostrum nihil commodi consectetur totam minus nulla corrupti! Maxime, vel perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, sint? Tempora assumenda incidunt exercitationem suscipit iusto, facere quaerat nulla nesciunt ut ducimus eius sunt ipsam, minima inventore magni. Harum, est?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor accusamus, fugit necessitatibus non reprehenderit nihil corporis dignissimos omnis delectus itaque aperiam deserunt error dolorum possimus similique, labore iure provident! Molestias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aperiam, eos, beatae id libero temporibus quibusdam earum facere, dolorem fugiat deserunt ea. Minus ipsum ea non harum corrupti optio unde! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum dolores blanditiis iure rem deserunt sunt delectus, totam molestiae. Molestias incidunt quam aut cum reiciendis officiis non hic eaque possimus sunt.
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga illum, delectus, autem quam vitae reprehenderit porro quidem laboriosam id esse laudantium, cum assumenda quod corrupti reiciendis est provident doloremque doloribus!Loreelor Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium officiis officia, minus ratione libero nemo dolores, numquam, quisquam ducimus ullam itaque sit. Omnis minima, nam unde magni est alias ipsa!Loremlo Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus iure officia necessitatibus nihil architecto ipsum consequatur pariatur vitae adipisci. Voluptas, vel. Nesciunt veritatis dolor voluptas quisquam iusto velit dolorum illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi ut, culpa animi unde, architecto deleniti voluptatem atque voluptates nostrum nihil commodi consectetur totam minus nulla corrupti! Maxime, vel perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, sint? Tempora assumenda incidunt exercitationem suscipit iusto, facere quaerat nulla nesciunt ut ducimus eius sunt ipsam, minima inventore magni. Harum, est?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor accusamus, fugit necessitatibus non reprehenderit nihil corporis dignissimos omnis delectus itaque aperiam deserunt error dolorum possimus similique, labore iure provident! Molestias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aperiam, eos, beatae id libero temporibus quibusdam earum facere, dolorem fugiat deserunt ea. Minus ipsum ea non harum corrupti optio unde! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum dolores blanditiis iure rem deserunt sunt delectus, totam molestiae. Molestias incidunt quam aut cum reiciendis officiis non hic eaque possimus sunt.
+    
+    
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga illum, delectus, autem quam vitae reprehenderit porro quidem laboriosam id esse laudantium, cum assumenda quod corrupti reiciendis est provident doloremque doloribus!Loreelor Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium officiis officia, minus ratione libero nemo dolores, numquam, quisquam ducimus ullam itaque sit. Omnis minima, nam unde magni est alias ipsa!Loremlo Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus iure officia necessitatibus nihil architecto ipsum consequatur pariatur vitae adipisci. Voluptas, vel. Nesciunt veritatis dolor voluptas quisquam iusto velit dolorum illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi ut, culpa animi unde, architecto deleniti voluptatem atque voluptates nostrum nihil commodi consectetur totam minus nulla corrupti! Maxime, vel perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, sint? Tempora assumenda incidunt exercitationem suscipit iusto, facere quaerat nulla nesciunt ut ducimus eius sunt ipsam, minima inventore magni. Harum, est?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor accusamus, fugit necessitatibus non reprehenderit nihil corporis dignissimos omnis delectus itaque aperiam deserunt error dolorum possimus similique, labore iure provident! Molestias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aperiam, eos, beatae id libero temporibus quibusdam earum facere, dolorem fugiat deserunt ea. Minus ipsum ea non harum corrupti optio unde! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum dolores blanditiis iure rem deserunt sunt delectus, totam molestiae. Molestias incidunt quam aut cum reiciendis officiis non hic eaque possimus sunt.
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga illum, delectus, autem quam vitae reprehenderit porro quidem laboriosam id esse laudantium, cum assumenda quod corrupti reiciendis est provident doloremque doloribus!Loreelor Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium officiis officia, minus ratione libero nemo dolores, numquam, quisquam ducimus ullam itaque sit. Omnis minima, nam unde magni est alias ipsa!Loremlo Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus iure officia necessitatibus nihil architecto ipsum consequatur pariatur vitae adipisci. Voluptas, vel. Nesciunt veritatis dolor voluptas quisquam iusto velit dolorum illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi ut, culpa animi unde, architecto deleniti voluptatem atque voluptates nostrum nihil commodi consectetur totam minus nulla corrupti! Maxime, vel perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, sint? Tempora assumenda incidunt exercitationem suscipit iusto, facere quaerat nulla nesciunt ut ducimus eius sunt ipsam, minima inventore magni. Harum, est?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor accusamus, fugit necessitatibus non reprehenderit nihil corporis dignissimos omnis delectus itaque aperiam deserunt error dolorum possimus similique, labore iure provident! Molestias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aperiam, eos, beatae id libero temporibus quibusdam earum facere, dolorem fugiat deserunt ea. Minus ipsum ea non harum corrupti optio unde! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum dolores blanditiis iure rem deserunt sunt delectus, totam molestiae. Molestias incidunt quam aut cum reiciendis officiis non hic eaque possimus sunt.
 </body>
 </html>
