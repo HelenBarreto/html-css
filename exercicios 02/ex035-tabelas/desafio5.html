@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desatacando as Colunas e com Cemantica</title>
+
+    <style>
+
+        table{
+            border-collapse: collapse;
+            max-width: 400px;
+        }
+
+        th, td{
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        col.linha1{
+            background-color: aquamarine;
+        }
+
+        col.linha2{
+            background-color: blue;
+        }
+
+        div#contener{
+            width: 50vw;
+            overflow-x: auto;
+        }
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div id="contener">
+        <table>
+            <colgroup>
+                <col class="linha1" span="3">
+                <col class="linha2">
+        
+            </colgroup>
+
+            <caption>Previsao de tempo</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Dia</th>
+                    <th scope="col">Tempo</th>
+                    <th scope="col">Minima</th>
+                    <th scope="col">Maxima</th>
+                </tr>
+            </thead>
+
+
+
+
+            <tbody>
+                <tr>
+                    <th scope="row">Domingo</th>
+                    <td>0.0</td>
+                    <td>27</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <th scope="row">Segunda</th>
+                    <td>0.0</td>
+                    <td>27</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <th scope="row">Terça</th>
+                    <td>0.0</td>
+                    <td>27</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <th scope="row">Quarta</th>
+                    <td>0.0</td>
+                    <td>27</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <th scope="row">Quinta</th>
+                    <td>0.0</td>
+                    <td>27</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <th scope="row">Sexta</th>
+                    <td>0.0</td>
+                    <td>27</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <th scope="row">Sabado</th>
+                    <td>0.0</td>
+                    <td>27</td>
+                    <td>32</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>
