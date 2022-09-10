@@ -10,14 +10,31 @@
     <h1>formulario simples</h1>
 
     <form action="cadastro.php"  method="post">
+        
+        <p><label for="inome">nome:</label>
 
-        <p><tabel for="inome">nome:</tabel> 
-            <input type="text" name="nome" id="inome"></p>
+            <input type="text" name="nome" id="inome" 
+            
+            required minlength="15" maxlength="15" size="15" placeholder="nome do usúario"></p>
+        
+        <p><label for="isobrenome"> sobrenome:</label>
+            <input type="text" name="sobrenome" id="isobrenome"
+            
+            required minlength="5" maxlength="15" size="15" placeholder="nome do usúario">
 
-        <p><tabel for="isobrenome">sobrenome:</tabel> 
-            <input type="text" name="sobrenome" id="isobrenome"></p>
+        </p>
 
-        <input type="submit" value="enviar">
+        <p><label for="isenha">senha:</label>
+            <input type="password" name="senha" id="isenha" 
+            
+            required minlength="5" maxlength="10" size="15" placeholder="mínimo 8 caracteres">
+        </p>
+
+        <p><input type="submit" value="Enviar">
+            <input type="reset" value="Deletar"></p>
+        
+
+
     </form>
     
 </body>
