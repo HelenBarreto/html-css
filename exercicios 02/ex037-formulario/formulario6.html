@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-br">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<body>
+
+
+    <form action="formulario.php" method="get">
+
+        <p>
+            <label for="inu1">Número 1:</label>
+            <input type="number" name="nu1" id="inu1" max="10" min="0" required
+            oninput="iresu.innerHTML = Number(inu1.value) + Number(inu2.value)">
+        </p>
+
+
+        <p>
+            <label for="inu2">Número 2</label>
+            <input type="number" name="nu2" id="inu2" max="10" min="0" required
+            oninput="iresu.innerHTML = Number(inu1.value) + Number(inu2.value)"
+            >
+        </p>
+
+        <p>
+            <label for="iresu">Resultado:</label>
+            <output name="resu" id="iresu"> 0</output>
+        </p>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Apagar">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
