@@ -3,5 +3,23 @@
 /*todas as medias*/
 
 @media print{
-    
+    /* impressão */
+   
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px){ 
+    /* tablet */
+   body{
+    background-image: url(../imagens/back-tablet.jpg);
+   }
+}
+
+@media screen and (min-width: 993px) and (max-width:1200px){ 
+    /* desktop */
+}
+
+
+@media screen and (min-width: 1200px){
+    /* grandes telas */
 }
