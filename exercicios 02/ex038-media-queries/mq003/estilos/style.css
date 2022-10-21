@@ -23,11 +23,14 @@ body{
 main{
 
     background-color: rgba(165, 187, 187, 0.518);
-    width: 90vw;
+    width: 60vw;
     
-    padding-top: 15px;
+    
+    padding-top: 30px;
     margin: auto;
     border-radius: 30px;
+    margin-top: 30px;
+    
 }
 
 h1{
@@ -35,6 +38,8 @@ h1{
     font-size: 2em;
     color: white;
     text-shadow: 2px 2px 5px #000000c4;
+
+    margin-top: 30px;
 }
 
 
@@ -45,7 +50,7 @@ img{
 }
 
 
-img#pc{display: none;}
+img#pc {display: none;}
 img#phone{display: block;}
 img#print{display: none;}
 img#tablet{display: none;}
