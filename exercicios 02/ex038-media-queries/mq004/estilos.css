@@ -9,7 +9,7 @@
 }
 
 html,body{
-    background-color: beige;
+    background-color: rgb(211, 211, 182);
 }
 
 header{
@@ -18,14 +18,33 @@ header{
 
 header > h1{
     text-align: center;
-    padding: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     
+}
+
+i#icone{
+    display: block;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#icone:hover{
+    background-color: white;
+    color: black;
+    
+     
 }
 
 
 menu{
-    display: block;
+    display: none;
 }
+
+
 menu > ul{
     list-style-type: none;
 }
@@ -38,5 +57,39 @@ menu a{
     color: white;
     padding: 13px;
     border-top: 2px solid rgba(255, 255, 255, 0.716);
+    
+}
+
+header > menu > ul > li a:hover{
+    background-color:  rgba(93, 90, 90, 0.849);
+}
+
+header #opção5{
+    border-bottom: 4px solid rgb(151, 151, 151);
+}
+
+main{
+    background-color: white;
+    width: 70vw;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 30px;
+
+}
+
+article h2{
+   
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+article p{
+    
+    text-align: justify; 
+    text-indent: 10px;
+    line-height: 1.5em;
+    padding-top: 15px;
+
     
 }
